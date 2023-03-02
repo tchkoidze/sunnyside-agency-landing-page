@@ -28,7 +28,9 @@ body {
   color: #808397;
   width: 100vw;
 }
+
 /*header*/
+
 .header-box {
   display: flex;
   flex-direction: column;
@@ -141,6 +143,8 @@ h1 {
   background: #fbd600;
   border-radius: 28px;
 }
+
+/*  productcontainer */
 
 .product-container {
   width: 100%;
@@ -264,7 +268,7 @@ h3 {
   width: 327px;
 }
 
-/* tetimoil*/
+/* testimonial*/
 
 .testimonials-container {
   padding: 64px 24px 86px 24px;
@@ -500,6 +504,8 @@ a :active .social-media {
     background-image: url("./images/desktop/image-photography.jpg");
   }
 
+  /* testimonial */
+
   .testimonials-container {
     padding: 160px 165px;
   }
@@ -527,12 +533,9 @@ a :active .social-media {
     display: block;
     max-width: 100%;
   }
+  /* footer*/
   .footer {
     background-color: #90d4c6;
     padding: 72px 0;
-  }
-
-  .li:hover {
-    color: #23303e;
   }
 }
